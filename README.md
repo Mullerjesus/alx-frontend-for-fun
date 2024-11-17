@@ -1,1 +1,1 @@
-This Project is All About Accessiblity
+This Project is All About alx-frontend-for-fun
