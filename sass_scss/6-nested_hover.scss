@@ -1,10 +1,8 @@
-/* 6-nested_hover.scss */
-$text-color: #FF0000;
-$hover-color: #00FF00;
-
+/* Assigning text color and hover color for button tags */
 button {
-    color:$text-color;
-    &:hover {
-        color:$hover-color;
-    }
+  color: #FF0000;
+
+  &:hover {
+    color: #00FF00;
+  }
 }
