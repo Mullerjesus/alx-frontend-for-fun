@@ -1,1 +1,13 @@
-/* My style */
+// 1-color_variable.scss
+
+// Define a variable for the color
+$primary-color: #3D3D3D;
+
+// Apply the color variable to the body and p tags
+body {
+  color: $primary-color;
+}
+
+p {
+  color: $primary-color;
+}
