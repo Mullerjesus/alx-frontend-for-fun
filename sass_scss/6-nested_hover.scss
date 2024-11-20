@@ -1,9 +1,10 @@
-// 6-nested_hover.scss
+/* 6-nested_hover.scss */
+$text-color: #FF0000;
+$hover-color: #00FF00;
 
 button {
-  color: #FF0000;
-
-  &:hover {
-    color: #00FF00;
-  }
+    color:$text-color;
+    &:hover {
+        color:$hover-color;
+    }
 }
