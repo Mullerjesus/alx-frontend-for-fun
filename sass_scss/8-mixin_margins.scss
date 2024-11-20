@@ -1,0 +1,15 @@
+// Define a mixin for setting margins
+@mixin set-margins($left, $right) {
+  margin-left: $left;
+  margin-right: $right;
+}
+
+// Include the mixin for body with margin-left and margin-right at 10px
+body {
+  @include set-margins(10px, 10px);
+}
+
+// Include the mixin for div with margin-left and margin-right at 15px
+div {
+  @include set-margins(15px, 15px);
+}
