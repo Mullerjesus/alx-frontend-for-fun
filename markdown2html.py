@@ -56,7 +56,7 @@ def convert_md_to_html(input_file, output_file):
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        sys.stderr.write('Usage: ./markdown2html.py <input_file> <output_file>\n')
+        sys.stderr.write('Usage: ./markdown2html.py README.md README.html\n')
         sys.exit(1)
 
     input_file = sys.argv[1]
