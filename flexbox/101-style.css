@@ -1,0 +1,48 @@
+/* 101-style.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.box {
+  font-size: 24px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1 {
+  background-color: #28a745;
+  width: 80px;
+  height: 60px;
+}
+
+.box2 {
+  background-color: #007bff;
+  width: 100px;
+  height: 80px;
+  font-size: 2rem;
+}
+
+.box3 {
+  background-color: #405d7a;
+  width: 180px;
+  height: 120px;
+  font-size: 4rem;
+}
+
+.box4 {
+  background-color: #6f42c1;
+  width: 100px;
+  height: 80px;
+  font-size: 2rem;
+}
+
+.box5 {
+  background-color: #fd7e14;
+  width: 80px;
+  height: 60px;
+}
